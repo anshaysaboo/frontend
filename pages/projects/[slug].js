@@ -3,6 +3,8 @@ import Image from "next/image";
 import client, { urlFor } from "../../client";
 
 const Project = ({ project }) => {
+  if (!project) return <div></div>;
+
   return (
     <Layout>
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 py-12">
