@@ -16,24 +16,24 @@ export default function About() {
                 <div className="max-w-[600px] prose">
                   <h1 className="font-bold text-black mb-8">About Me</h1>
                   <p>
-                    I'm Anshay, a passionate developer and entrepreneur, and
+                    {`I'm Anshay, a passionate developer and entrepreneur, and
                     student at the University of Southern California in Los
                     Angeles. I love tackling creative challenges and creating
                     products that have a tangible impact and improve lives of
-                    others.
+                    others.`}
                   </p>
                   <p>
-                    Since I wrote my first line of code in an after-school class
+                    {`Since I wrote my first line of code in an after-school class
                     during elementary school, I've been fascinated by the power
-                    programming grants us to create change.
+                    programming grants us to create change.`}
                   </p>
                   <p>
-                    I have experience with developing and releasing mobile apps
+                    {`I have experience with developing and releasing mobile apps
                     on the iOS and Android platforms. I've also developed
                     several full-stack web applications, extending my skillset
                     to API development, full-stack web app development, and
                     back-end development. I'm constantly looking for new
-                    opportunities to explore new fields and push my boundaries.
+                    opportunities to explore new fields and push my boundaries.`}
                   </p>
                 </div>
               </div>
