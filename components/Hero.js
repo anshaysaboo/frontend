@@ -8,6 +8,7 @@ export default function Hero() {
   const { primary, secondary, dispatch } = useTheme();
 
   useEffect(() => {
+    if (VANTA === undefined) return;
     VANTA.BIRDS({
       el: "#hero-background",
       mouseControls: true,
